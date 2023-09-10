@@ -1,0 +1,23 @@
+.father {
+  display: flex;
+  height: 100vh;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start; /* 컨텐츠 전체 정렬(묶음으로 정렬) */
+  align-content: center; /* 컨텐츠 사이 정렬 (멀티 라인일 경우에만 동작, 가로 정렬)*/
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  color: white;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
